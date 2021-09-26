@@ -1,7 +1,23 @@
 
 .bg-dark {
-    background-color: #4874ad !important;
+    background-color: #6f8eb6 !important;
   }
+
+body {
+    background-color: #d3d8dd;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}  
 
 .mapphotos-container{
     position: relative;
@@ -21,10 +37,11 @@ img {
     background-color: #6f8eb6;
 }
 
-.explain-box {
+.flag {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
+
 .explain-box {
     display: flex;
     margin: 10px;
@@ -43,12 +60,13 @@ img {
     justify-content: center;
 }
 
-body {
-    background-color: #d3d8dd;
+.other-language {
+    margin: 0 40px;
+    text-align: center;
+    font-size: 40px;
 }
 
-h1 {
-    font-size: 80px;
+footer {
+    padding: 60px;
     text-align: center;
 }
-
